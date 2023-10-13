@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+
+@font-face {
+  font-family: "SF Pro Regular";
+  src: url("./fonts/SFPRODISPLAYREGULAR.OTF") format("OpenType");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SF Pro Medium";
+  src: url("./fonts/SFPRODISPLAYMEDIUM.OTF") format("OpenType");
+  font-weight: 500;
+  font-style: medium;
+}
+
+@font-face {
+  font-family: "SF Pro Bold";
+  src: url("./fonts/SFPRODISPLAYBOLD.OTF") format("OpenType");
+  font-weight: 700;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: "Gridular";
+  src: url("./fonts/Gridular-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.bg-gradient-effect {
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(255, 153, 59, 0.25) 0%,
+    rgba(16, 16, 16, 0) 100%
+  );
+}
+
+.bg-linear-gradient-effect-waitlist {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 153, 60, 0.25) 0%,
+    rgba(255, 153, 60, 0.05) 50%,
+    rgba(255, 153, 60, 0) 80%
+  );
+}
+
+.footer-bg {
+  background: linear-gradient(180deg, #542800 0%, #542800 100%);
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.hover-scale {
+  transition: transform 0.6s ease-in-out; /* Add smooth transition */
+}
+
+.hover-scale:hover {
+  transform: scale(1.02); /* Scale the element on hover */
+}
+
+.gradient-border {
+  position: relative;
+}
+
+.gradient-border::before {
+  content: "";
+  position: absolute;
+  top: 0; /* Adjust to control the width of the border */
+  height: 100%;
+  width: 2px; /* Adjust to control the width of the border */
+  background-image: linear-gradient(
+    to bottom,
+    #ff993c 0%,
+    rgba(255, 153, 60, 0.05) 50%,
+    rgba(255, 153, 60, 0) 80%
+  ); /* Adjust colors as needed */
+}
+
+@keyframes moveY {
+  0% {
+    transform: translateY(0);
+  }
+  33% {
+    transform: translateY(40%);
+  }
+  66% {
+    transform: translateY(80%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
