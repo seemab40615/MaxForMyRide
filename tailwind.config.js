@@ -3,9 +3,12 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     fontFamily: {
-      sans: ["Neue Haas Grotesk Display Pro", "Arial", "sans"], // Override the default sans-serif font
-      serif: ["Georgia", "serif"], // Override the default serif font
-      mono: ["Menlo", "monospace"], // Override the default monospace font
+      sans: ['"Neue Haas Grotesk Display Pro"', '"Segoe UI"', 'Roboto', 'sans-serif',],
+    },
+    fontWeight: {
+      'normal': 400, // Normal font weight
+      'medium': 500, // Medium font weight
+      'bold': 700,   // Bold font weight
     },
     extend: {
       screens: {
@@ -31,11 +34,6 @@ module.exports = {
         "theme-black": "#100A04",
         orangeGradient: "rgba(255, 153, 59, 0.50);",
         bgSecondary: "#1F1307",
-      },
-      fontFamily: {
-        "neue-hass": ["Neue Hass", "sans"],
-        "neue-hass-normal": ["Neue Hass Normal", "sans"],
-        "neue-hass-bold": ["Neue Hass Bold", "sans"],
       },
       backgroundColor: {
         navItemGradient: "rgba(255, 153, 60, 0.10)",
