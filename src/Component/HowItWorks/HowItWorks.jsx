@@ -4,7 +4,7 @@ import HowTwo from '../../assets/assets/images/how-2.svg';
 import HowThree from '../../assets/assets/images/how-3.svg';
 export const HowItWorks = () => {
   return (
-    <div className="max-w-maxSize mx-auto w-full grid grid-cols-1 lg:grid-cols-3 p-5 lg:p-2">
+    <div className="max-w-maxSize mx-auto w-full grid grid-cols-1 lg:grid-cols-3 p-5 lg:p-2 my-10">
       <div className="grid col-span-1">
         <div className="flex flex-col max-w-[473px] w-full gap-y-3">
           <div>
@@ -24,12 +24,12 @@ export const HowItWorks = () => {
       <div className="col-span-2">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-5">
           <div className="col-span-1 px-4 py-6 rounded-[10px] bg-white shadow-xl">
-            <h2 className=" text-primary text-[28px] font-bold ">
+            <h2 className=" text-primary text-[28px] font-bold">
               GET
               <br />
               YOUR OFFER
             </h2>
-            <p className=" text-black text-[20px] my-2">
+            <p className=" text-black text-[20px] my-2 font-medium">
               Share a few details and we’ll provide a express cash offer in
               about 2 minutes.
             </p>
@@ -45,7 +45,7 @@ export const HowItWorks = () => {
                                                 <br />
                                                 OR SELL
             </h2>
-            <p className=" text-black text-[20px] my-2">
+            <p className=" text-black text-[20px] my-2 font-medium">
             Trade in your old vehicle for a new one, or sell it to us, either way we want to buy.
             </p>
             <img
@@ -54,7 +54,7 @@ export const HowItWorks = () => {
               alt=""
             />
           </div>
-          <div className="col-span-1 px-4 py-6 rounded-[10px] bg-white shadow-xl">
+          <div className="col-span-1 px-4 py-6 rounded-[10px] bg-white shadow-xl font-medium">
             <h2 className=" text-primary text-[28px] font-bold ">
             GET
                                                 <br />

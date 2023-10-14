@@ -1,19 +1,20 @@
+/* @import url('https://fonts.cdnfonts.com/css/neue-haas-grotesk-display-pro?styles=82961,82962,82971,82972,82969,82970,82967,82968,82965,82966,82963,82964,82959,82960,82957,82958'); */
 
 @font-face {
   font-family: "Neue Haas Grotesk Display Pro";
-  src: url('./assets/fonts/NeueHaasDisplay-Bold.ttf') format("truetype");
-  font-weight: 700;
-  font-style: bold;
-}@font-face {
-  font-family: "Neue Hass";
-  src: url("./assets/fonts/NeueHaasDisplay-Bold.ttf") format("TrueType");
+  src: url("./fonts/NHaasGroteskTXPro-55Rg.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
-
 @font-face {
   font-family: "Neue Haas Grotesk Display Pro";
-  src: url('./assets/fonts/NeueHaasDisplay-Bold.ttf') format("truetype");
+  src: url("./fonts/NHaasGroteskTXPro-65Md.ttf") format("truetype");
+  font-weight: 500;
+  font-style: medium;
+}
+@font-face {
+  font-family: "Neue Haas Grotesk Display Pro";
+  src: url("./fonts/NHaasGroteskTXPro-75Bd.ttf") format("truetype");
   font-weight: 700;
   font-style: bold;
 }
@@ -39,6 +40,9 @@
   );
 }
 
+.banner-sell-vehicle-bg {
+  background-image: url("./assets/images/custom-bg.jpg");
+}
 .footer-bg {
   background-image: url("./assets/images/footer-map.jpg");
 }
