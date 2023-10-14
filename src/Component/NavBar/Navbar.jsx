@@ -5,10 +5,10 @@ initTE({ Collapse });
 export const NavBar = () => {
   return (
     <nav
-      class="absolute z-10 flex w-full flex-nowrap items-center justify-between py-2 text-neutral-500 shadow-lg hover:text-neutral-700 focus:text-neutral-700 dark:bg-neutral-600 lg:flex-wrap lg:justify-start lg:py-4"
+      class="fixed z-10 flex max-w-[1920px] w-full flex-nowrap items-center justify-between py-2 text-neutral-500 shadow-lg hover:text-neutral-700 focus:text-neutral-700 dark:bg-neutral-600 lg:flex-wrap lg:justify-start lg:py-4"
       data-te-navbar-ref
     >
-      <div class="flex w-full flex-wrap items-center justify-between px-[140px]">
+      <div class="flex w-full flex-wrap items-center justify-between  lg:px-[120px] md:px-10 px-2">
         <div class="ml-2">
           <img class="img-fluid" src={Logo} alt="Max For My Ride" />
         </div>

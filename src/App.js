@@ -7,13 +7,16 @@ import { HeroSection } from './Component/HeroSection/HeroSection';
 
 function App() {
   return (
-    <Router>
+    <div className="max-w-[1920px] m-auto">
+      <Router>
         <NavBar />
         <Routes>
          <Route exact path="/" element={<HeroSection />} />
          
         </Routes>
     </Router>
+
+    </div>
   );
 }
 
