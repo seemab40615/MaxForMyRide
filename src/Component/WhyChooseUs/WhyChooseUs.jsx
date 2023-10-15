@@ -4,6 +4,9 @@ import WhystepTwo from '../../assets/assets/images/step-2.svg'
 import WhystepThree from '../../assets/assets/images/step-3.svg'
 import WhystepFour from '../../assets/assets/images/step-4.svg'
 import {SingleSlider} from '../SingleSlider/SingleSlider';
+import aboutOne from '../../assets/images/1.JPG';
+import aboutTwo from '../../assets/images/2.JPG';
+import aboutThree from '../../assets/images/3.JPG';
 export const WhyChooseUs = () => {
   return (
     <div className="max-w-maxSize mx-auto w-full grid grid-cols-1 lg:grid-cols-3 p-5 lg:p-2 my-10">
@@ -22,14 +25,14 @@ export const WhyChooseUs = () => {
             </button>
           </div>
         </div>
-        <div className="bg-primary rounded-lg h-[400px] mt-5 ">
+        <div className="rounded-lg h-[400px] mt-5 ">
          <SingleSlider />
         </div>
       </div>
       <div className="col-span-2">
         <div className="grid grid-cols-2">
           <div class="col-span-1">
-            <div class="choose-steps-block choose-path-1">
+            <div class="choose-steps-block">
               <img
                 src={WhystepOne}
                 class="img-fluid mr-4 mt-8 hover-scale"
@@ -43,10 +46,20 @@ export const WhyChooseUs = () => {
                 </p>
               </div>
             </div>
+            <img
+                src={aboutOne}
+                class="img-fluid mr-4 mt-8 w-[90%] h-[280px] ml-5"
+                alt=""
+              />
           </div>
 
           <div class="col-span-1">
-            <div class="choose-steps-block choose-path-2">
+          <img
+                src={aboutTwo}
+                class="img-fluid mr-4 mt-8"
+                alt=""
+              />
+            <div class="choose-steps-block">
               <img
                 src={WhystepTwo}
                 class="img-fluid mr-4 mt-8 hover-scale"
@@ -63,7 +76,7 @@ export const WhyChooseUs = () => {
           </div>
 
           <div class="col-span-1">
-            <div class="choose-steps-block choose-path-3">
+            <div class="choose-steps-block ">
               <img
                 src={WhystepThree}
                 class="img-fluid mr-4 mt-8 hover-scale"
@@ -80,6 +93,11 @@ export const WhyChooseUs = () => {
           </div>
 
           <div class="col-span-1">
+          <img
+                src={aboutThree}
+                class="img-fluid mr-4 mt-8 hover-scale"
+                alt=""
+              />
             <div class="choose-steps-block choose-path-4">
               <img
                 src={WhystepFour}

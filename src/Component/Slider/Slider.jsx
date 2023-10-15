@@ -44,7 +44,7 @@ export default function SimpleSlider() {
     SliderTen
     ];
   return (
-    <div className="relative max-w-[1440px] mx-auto p-10">
+    <div className="relative max-w-[1440px] mx-auto px-10 py-4">
       <div className="absolute -top-10 bg-white rounded-[10px] py-4 px-[30px] text-center left-1/2 transform -translate-x-1/2 max-w-[260px] min-h-[88px]">Sell / Trade / Consign Your:</div>
       <Slider {...settings} key={key}>
         {images.map((image, index) => (

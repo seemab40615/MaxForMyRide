@@ -101,7 +101,7 @@
   padding: 25px;
 }
 .choose-path-2 {
-  margin-top: 15rem;
+  margin-top: 1rem;
 }
 .choose-path-2::before {
   content: " ";
@@ -131,7 +131,7 @@
   background-size: 82%;
 }
 .choose-path-4 {
-  margin-top: 15rem;
+  margin-top: 1rem;
 }
 .accordion {
   border-color: rgba(0,0,0,0);

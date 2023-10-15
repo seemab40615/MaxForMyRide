@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="85" height="85" viewBox="0 0 85 85">
+  <g id="Group_101" data-name="Group 101" transform="translate(4773 11602)">
+    <g id="Group_97" data-name="Group 97" transform="translate(-5638 -15316)">
+      <g id="Ellipse_20" data-name="Ellipse 20" transform="translate(865 3714)" fill="none" stroke="#707070" stroke-width="0.5">
+        <circle cx="42.5" cy="42.5" r="42.5" stroke="none"/>
+        <circle cx="42.5" cy="42.5" r="42.25" fill="none"/>
+      </g>
+      <path id="Icon_material-account-balance" data-name="Icon material-account-balance" d="M6,15V25.5h4.5V15Zm9,0V25.5h4.5V15ZM3,33H31.5V28.5H3ZM24,15V25.5h4.5V15ZM17.25,1.5,3,9v3H31.5V9Z" transform="translate(890.25 3739.25)" fill="#7e7e7e"/>
+    </g>
+  </g>
+</svg>
