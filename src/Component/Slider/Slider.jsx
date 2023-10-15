@@ -19,11 +19,11 @@ export default function SimpleSlider() {
   var settings = {
     dots: false,
     infinite: true,
-    speed: 1000,
+    speed: 800,
     slidesToShow: 9,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 5000,
+    autoplaySpeed: 2000,
   };
   const [key, setKey] = useState(0);
 
@@ -52,7 +52,7 @@ export default function SimpleSlider() {
             <img
               src={image}
               alt={`Slide ${index + 1}`}
-              className="w-full h-auto"
+              className="w-full h-auto hover-scale"
             />
           </div>
         ))}

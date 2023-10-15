@@ -17,7 +17,7 @@ export const WhyChooseUs = () => {
             <p className="text-black text-[26px] leading-[34px] my-3">
               Adding value, not complication.
             </p>
-            <button className=" bg-primary hover:bg-white text-white hover:text-primary border-2 border-primary rounded-[10px] max-w-[228px] px-9 min-h-[46px] mt-5">
+            <button className=" bg-primary hover:bg-white text-white hover:text-primary border-2 border-primary rounded-[10px] max-w-[228px] px-9 min-h-[46px] mt-5 hover-scale">
               Start Selling Today!
             </button>
           </div>
@@ -32,11 +32,11 @@ export const WhyChooseUs = () => {
             <div class="choose-steps-block choose-path-1">
               <img
                 src={WhystepOne}
-                class="img-fluid mr-4 mt-8"
+                class="img-fluid mr-4 mt-8 hover-scale"
                 alt=""
               />
               <div>
-                <h2 className="text-primary text-[30px] font-bold mb-3">Free car <br /> Valuation</h2>
+                <h2 className="text-primary text-[30px] font-bold mb-3 hover-scale">Free car <br /> Valuation</h2>
                 <p>
                   We provide a non - obligation quote for your car, based on
                   physical condition and the market price.
@@ -49,11 +49,11 @@ export const WhyChooseUs = () => {
             <div class="choose-steps-block choose-path-2">
               <img
                 src={WhystepTwo}
-                class="img-fluid mr-4 mt-8"
+                class="img-fluid mr-4 mt-8 hover-scale"
                 alt=""
               />
               <div>
-                <h2 className="text-primary text-[30px] font-bold mb-3">Ownership  <br /> Transfer</h2>
+                <h2 className="text-primary text-[30px] font-bold mb-3 hover-scale">Ownership  <br /> Transfer</h2>
                 <p>
                   We are authorized by RTA, and our professionals will transfer
                   the car in our office, with no hassles!
@@ -66,11 +66,11 @@ export const WhyChooseUs = () => {
             <div class="choose-steps-block choose-path-3">
               <img
                 src={WhystepThree}
-                class="img-fluid mr-4 mt-8"
+                class="img-fluid mr-4 mt-8 hover-scale"
                 alt=""
               />
               <div>
-                <h2 className="text-primary text-[30px] font-bold mb-3">Finance Cleared</h2>
+                <h2 className="text-primary text-[30px] font-bold mb-3 hover-scale">Finance Cleared</h2>
                 <p>
                   We will even clear the outstanding <br /> finance on cars and pay difference <br />
                    to customers.
@@ -83,11 +83,11 @@ export const WhyChooseUs = () => {
             <div class="choose-steps-block choose-path-4">
               <img
                 src={WhystepFour}
-                className="img-fluid mr-4 mt-8 "
+                className="img-fluid mr-4 mt-8 hover-scale"
                 alt=""
               />
               <div>
-                <h2 className="text-primary text-[30px] font-bold mb-3">Instant Cash</h2>
+                <h2 className="text-primary text-[30px] font-bold mb-3 hover-scale">Instant Cash</h2>
                 <p>
                   In just 30 minutes when you sell your car, you will receive
                   cash, bank transfer or cheque, based on your choice!

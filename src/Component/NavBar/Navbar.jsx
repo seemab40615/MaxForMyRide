@@ -53,7 +53,7 @@ export const NavBar = () => {
             {/* <!-- Home link --> */}
             <li class="my-4 pl-2 lg:my-0 lg:pl-2 lg:pr-1" data-te-nav-item-ref>
               <a
-                class="active disabled:text-black/30 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
+                class="active text-white hover:text-primary  focus:text-primary lg:px-2 [&.active]:text-primary hover-scale"
                 aria-current="page"
                 href="google.com"
                 data-te-nav-link-ref
@@ -64,8 +64,8 @@ export const NavBar = () => {
             {/* <!-- Link --> */}
             <li class="mb-4 pl-2 lg:mb-0 lg:pl-0 lg:pr-1" data-te-nav-item-ref>
               <a
-                class="p-0 text-neutral-500 transition duration-200 hover:text-neutral-700 hover:ease-in-out focus:text-neutral-700 disabled:text-black/30 motion-reduce:transition-none dark:text-neutral-200 dark:hover:text-neutral-400 dark:focus:text-neutral-400 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
-                href="google.com"
+                class=" hover-scale p-0 text-white hover:text-primary  focus:text-primary transition duration-200 hover:ease-in-out  motion-reduce:transition-none dark:text-neutral-200 dark:hover:text-neutral-400 dark:focus:text-neutral-400 lg:px-2 [&.active]:text-primary dark:[&.active]:text-neutral-400"
+                href="#faq"
                 data-te-nav-link-ref
               >
                 FAQ
@@ -75,8 +75,8 @@ export const NavBar = () => {
             {/* <!-- Disabled link --> */}
             <li class="mb-4 pl-2 lg:mb-0 lg:pl-0 lg:pr-1" data-te-nav-item-ref>
               <a
-                class="p-0 text-neutral-500 transition duration-200 hover:text-neutral-700 hover:ease-in-out focus:text-neutral-700 disabled:text-black/30 motion-reduce:transition-none dark:text-neutral-200 dark:hover:text-neutral-400 dark:focus:text-neutral-400 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
-                href="google.com"
+                class=" hover-scale p-0 text-white hover:text-primary  focus:text-primary transition duration-200  hover:ease-in-out  motion-reduce:transition-none dark:text-neutral-200 dark:hover:text-neutral-400 dark:focus:text-neutral-400 lg:px-2 [&.active]:text-primary dark:[&.active]:text-neutral-400"
+                href="#Direction"
                 data-te-nav-link-ref
               >
                 Get Directions

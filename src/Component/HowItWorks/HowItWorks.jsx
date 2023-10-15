@@ -15,7 +15,7 @@ export const HowItWorks = () => {
             <p className="text-black text-[26px] leading-[34px] my-3">
             Trade in or sell your vehicle to us in just a few easy steps
             </p>
-            <button className=" bg-primary hover:bg-white text-white hover:text-primary border-2 border-primary rounded-[10px] max-w-[228px] px-9 min-h-[46px] mt-5">
+            <button className=" bg-primary hover:bg-white text-white hover:text-primary border-2 border-primary rounded-[10px] max-w-[228px] px-9 min-h-[46px] mt-5 hover-scale">
             Start Selling Today!
             </button>
           </div>
@@ -23,7 +23,7 @@ export const HowItWorks = () => {
       </div>
       <div className="col-span-2">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-5">
-          <div className="col-span-1 px-4 py-6 rounded-[10px] bg-white shadow-xl">
+          <div className="col-span-1 px-4 py-6 rounded-[10px] bg-white shadow-xl hover-scale">
             <h2 className=" text-primary text-[28px] font-bold">
               GET
               <br />
@@ -39,7 +39,7 @@ export const HowItWorks = () => {
               alt=""
             />
           </div>
-          <div className="col-span-1 px-4 py-6 rounded-[10px] bg-white shadow-xl">
+          <div className="col-span-1 px-4 py-6 rounded-[10px] bg-white shadow-xl hover-scale">
             <h2 className=" text-primary text-[28px] font-bold ">
             TRADE
                                                 <br />
@@ -54,7 +54,7 @@ export const HowItWorks = () => {
               alt=""
             />
           </div>
-          <div className="col-span-1 px-4 py-6 rounded-[10px] bg-white shadow-xl font-medium">
+          <div className="col-span-1 px-4 py-6 rounded-[10px] bg-white shadow-xl hover-scale">
             <h2 className=" text-primary text-[28px] font-bold ">
             GET
                                                 <br />

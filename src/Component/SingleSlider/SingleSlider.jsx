@@ -16,7 +16,7 @@ export const SingleSlider = () => {
   var settings = {
     dots: false,
     infinite: true,
-    speed: 1000,
+    speed: 700,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
@@ -46,7 +46,7 @@ export const SingleSlider = () => {
             <img
               src={image}
               alt={`Slide ${index + 1}`}
-              className="w-full h-auto"
+              className="w-full h-auto hover-scale"
             />
           </div>
         ))}

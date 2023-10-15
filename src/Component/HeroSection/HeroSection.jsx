@@ -7,8 +7,8 @@ export const HeroSection = () => {
       <img class="max-w-[100vw]" src={Banner} alt="Max For My Ride" />
       <div className="mt-[60px] absolute top-[25%] left-1/2 transform -translate-x-1/2 -translate-y-[25%] flex justify-between max-w-[1400px] w-full">
         <div className="flex flex-col items-center">
-          <h3 className="text-[60px] font-bold text-white leading-[60px] capitalize -tracking-[2px]">We want to</h3>
-          <h2 className="text-white text-[70px] font-bold leading-[75px]">Buy Your Car!</h2>
+          <h3 className="text-[60px] font-bold text-white leading-[60px] capitalize -tracking-[2px] hover-scale">We want to</h3>
+          <h2 className="text-white text-[70px] font-bold leading-[75px] hover-scale">Buy Your Car!</h2>
           <p className="text-white text-[28px]">
             No Matter the Make, Model or Miles.
           </p>

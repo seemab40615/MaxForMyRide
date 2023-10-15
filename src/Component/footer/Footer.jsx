@@ -22,7 +22,7 @@ export const Footer = () => {
                 Sales: 253 830-4220
               </p>
             </div>
-            <button className="bg-darkPrimary text-white hover:text-primary border-2 border-darkPrimary rounded-[10px] max-w-[190px] px-9 min-h-[46px] mt-5">
+            <button className="hover-scale bg-darkPrimary text-white hover:text-primary border-2 border-darkPrimary rounded-[10px] max-w-[190px] px-9 min-h-[46px] mt-5">
               Get Directions
             </button>
           </div>
