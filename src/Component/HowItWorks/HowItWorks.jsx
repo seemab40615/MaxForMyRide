@@ -12,10 +12,10 @@ export const HowItWorks = () => {
             <h1 className="text-[4rem] text-black -mt-[30px] font-bold ">
              How It Works
             </h1>
-            <p className="text-black text-[26px] leading-[34px]">
+            <p className="text-black text-[26px] leading-[34px] my-3">
             Trade in or sell your vehicle to us in just a few easy steps
             </p>
-            <button className=" bg-primary text-white border-2 rounded-[10px] max-w-[228px] px-9 min-h-[46px] mt-5">
+            <button className=" bg-primary text-white border-2 border-primary rounded-[10px] max-w-[228px] px-9 min-h-[46px] mt-5">
             Start Selling Today!
             </button>
           </div>

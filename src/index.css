@@ -76,6 +76,63 @@
     rgba(255, 153, 60, 0) 80%
   ); /* Adjust colors as needed */
 }
+.choose-steps-block {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  padding: 25px;
+}
+.choose-path-1::before {
+  content: " ";
+  background-image: url(./assets/assets/images/step-path-1.svg);
+  position: absolute;
+  bottom: -170px;
+  left: 70px;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-size: 88%;
+}
+.choose-steps-block {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  padding: 25px;
+}
+.choose-path-2 {
+  margin-top: 15rem;
+}
+.choose-path-2::before {
+  content: " ";
+  background-image: url(./assets/assets/images/step-path-2.svg);
+  position: absolute;
+  bottom: -200px;
+  left: -60px;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-size: 88%;
+}
+.choose-path-3 {
+  margin-top: 0;
+}
+.choose-path-3::before {
+  content: " ";
+  background-image: url(./assets/assets/images/step-path-3.svg);
+  position: absolute;
+  bottom: -170px;
+  left: 70px;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-size: 82%;
+}
+.choose-path-4 {
+  margin-top: 15rem;
+}
 
 @keyframes moveY {
   0% {
