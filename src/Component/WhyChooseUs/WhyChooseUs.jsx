@@ -3,6 +3,7 @@ import WhystepOne from '../../assets/assets/images/step-1.svg'
 import WhystepTwo from '../../assets/assets/images/step-2.svg'
 import WhystepThree from '../../assets/assets/images/step-3.svg'
 import WhystepFour from '../../assets/assets/images/step-4.svg'
+import {SingleSlider} from '../SingleSlider/SingleSlider';
 export const WhyChooseUs = () => {
   return (
     <div className="max-w-maxSize mx-auto w-full grid grid-cols-1 lg:grid-cols-3 p-5 lg:p-2 my-10">
@@ -16,13 +17,13 @@ export const WhyChooseUs = () => {
             <p className="text-black text-[26px] leading-[34px] my-3">
               Adding value, not complication.
             </p>
-            <button className=" bg-primary text-white border-2 border-primary rounded-[10px] max-w-[228px] px-9 min-h-[46px] mt-5">
+            <button className=" bg-primary hover:bg-white text-white hover:text-primary border-2 border-primary rounded-[10px] max-w-[228px] px-9 min-h-[46px] mt-5">
               Start Selling Today!
             </button>
           </div>
         </div>
-        <div className="bg-primary rounded-lg h-[600px] mt-5 ">
-
+        <div className="bg-primary rounded-lg h-[400px] mt-5 ">
+         <SingleSlider />
         </div>
       </div>
       <div className="col-span-2">

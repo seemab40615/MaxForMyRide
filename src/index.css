@@ -133,7 +133,11 @@
 .choose-path-4 {
   margin-top: 15rem;
 }
-
+.accordion {
+  border-color: rgba(0,0,0,0);
+  -webkit-box-shadow: -1px 1px 15px -1px rgba(0,0,0,0.15);
+  box-shadow: -1px 1px 15px -1px rgba(0,0,0,0.15);
+}
 @keyframes moveY {
   0% {
     transform: translateY(0);

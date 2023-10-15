@@ -1,4 +1,7 @@
 import React from "react";
+import { FaqAccordion } from '../FaqAccordion/FaqAccordion';
+import PhoneIcon from '../../assets/assets/images/icon-phone-red.svg';
+import {SingleSlider} from '../SingleSlider/SingleSlider';
 
 export const Faq = () => {
   return (
@@ -15,20 +18,22 @@ export const Faq = () => {
             We have Answers
             </p>
            <div className="flex gap-5">
-           <button className=" bg-primary text-white border-2 border-primary rounded-[10px] max-w-[228px] px-9 min-h-[46px] mt-5">
+           <button className=" bg-primary hover:bg-white text-white hover:text-primary border-2 border-primary rounded-[10px] max-w-[228px] px-9 min-h-[46px] mt-5">
             Ask Us Anything
             </button>
-            <button className=" bg-primary text-white border-2 border-primary rounded-[10px] max-w-[228px] px-9 min-h-[46px] mt-5">
-            <img src="../../assets/assets/images/icon-phone-red.svg" alt="" />
+            <button className=" hover:bg-primary text-primary hover:text-white border-2 bg-white border-primary rounded-[10px] max-w-[228px] px-9 min-h-[46px] mt-5 flex gap-x-2 items-center">
+            <img src={PhoneIcon} alt="" />
             (253) 830-4220
             </button>
            </div>
           </div>
         </div>
-        <div className="bg-primary rounded-lg h-[600px] mt-5 "></div>
+        <div className="bg-primary rounded-lg h-[400px] mt-5 ">
+            <SingleSlider />
+        </div>
       </div>
-      <div className="col-span-2">
-
+      <div className="col-span-2 px-8">
+        <FaqAccordion />
       </div>
     </div>
   );
