@@ -8,8 +8,8 @@ export const Faq = () => {
           <div>
             <h1 className="text-[3rem] text-black font-bold">You Have</h1>
             <h1 className="text-[4rem] text-black -mt-[30px] font-bold ">
-            
-Questions?
+                
+                Questions?
             </h1>
             <p className="text-black text-[26px] leading-[34px] my-3">
             We have Answers
@@ -19,7 +19,7 @@ Questions?
             Ask Us Anything
             </button>
             <button className=" bg-primary text-white border-2 border-primary rounded-[10px] max-w-[228px] px-9 min-h-[46px] mt-5">
-            <img src="wp-content/themes/aanWordpress/assets/images/icon-phone-red.svg" alt="" />
+            <img src="../../assets/assets/images/icon-phone-red.svg" alt="" />
             (253) 830-4220
             </button>
            </div>

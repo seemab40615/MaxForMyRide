@@ -1,18 +1,27 @@
 import SimpleSlider from "../Slider/Slider";
+import SliderOne from '../../assets/assets/images/partner-1.svg';
+import SliderTwo from '../../assets/assets/images/partner-2.svg';
+import SliderThree from '../../assets/assets/images/partner-3.svg';
+import SliderFour from '../../assets/assets/images/partner-4.svg';
+import SliderFive from '../../assets/assets/images/partner-5.svg';
+import Slidersix from '../../assets/assets/images/partner-6.svg';
+import SliderSeven from '../../assets/assets/images/partner-7.svg';
+import SliderEight from '../../assets/assets/images/partner-8.svg';
+import SliderNine from '../../assets/assets/images/partner-9.svg';
+import SliderTen from '../../assets/assets/images/partner-10.svg';
 
 export const SliderImages = () => {
     const images = [
-        'https://placekitten.com/136/136',
-        'https://placekitten.com/137/137',
-        'https://placekitten.com/138/138',
-        'https://placekitten.com/139/139',
-        'https://placekitten.com/140/140',
-        'https://placekitten.com/141/141',
-        'https://placekitten.com/142/142',
-        'https://placekitten.com/143/143',
-        'https://placekitten.com/144/144',
-        'https://placekitten.com/144/144',
-        'https://placekitten.com/144/144'
+      SliderOne,
+      SliderTwo,
+      SliderThree,
+      SliderFour,
+      SliderFive,
+      Slidersix,
+      SliderSeven,
+      SliderEight,
+      SliderNine,
+      SliderTen
       ];
     
 
