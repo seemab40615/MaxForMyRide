@@ -28,7 +28,7 @@ export const Faq = () => {
            </div>
           </div>
         </div>
-        <div className="bg-primary rounded-lg h-[400px] mt-5 ">
+        <div className="rounded-lg h-[400px] mt-5 ">
             <SingleSlider />
         </div>
       </div>
