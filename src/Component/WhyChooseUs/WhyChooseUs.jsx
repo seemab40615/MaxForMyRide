@@ -31,7 +31,7 @@ export const WhyChooseUs = () => {
         </div>
       </div>
       <div className="col-span-2">
-        <div className="grid grid-cols-2">
+        <div className="grid grid-cols-1 lg:grid-cols-2">
 
           <div class="col-span-1">
             <div class="choose-steps-block">
@@ -50,6 +50,7 @@ export const WhyChooseUs = () => {
             </div>
           </div>
           <div class="col-span-1">
+            
             <img
                 src={aboutOne}
                 class="img-fluid mr-4 mt-8 ml-5 hover-scale"

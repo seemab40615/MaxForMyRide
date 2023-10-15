@@ -3,9 +3,9 @@ import React from "react";
 import bannerSrc from "../../assets/assets/Banner.mp4";
 export const HeroSection = () => {
   return (
-    <div className="relative">
-      <video src={bannerSrc} height="500" loop autoPlay={true} className="w-[100vw]" autoFocus={true} muted={true}></video>
-      <div className="mt-[60px] absolute top-[25%] left-1/2 transform -translate-x-1/2 -translate-y-[25%] flex justify-between max-w-[1400px] w-full">
+    <div className="relative overflow-hidden">
+      <video src={bannerSrc} loop autoPlay={true} className=" min-w-[1440px] w-[100vw] " autoFocus={true} muted={true}></video>
+      <div className="mt-[60px] absolute top-[25%] left-1/2 transform -translate-x-1/2 -translate-y-[25%] flex xs:flex-col xs:items-center xs:gap-y-4 lg:flex-row justify-between max-w-[1400px] w-full">
         <div className="flex flex-col items-center">
           <h3 className="text-[60px] font-bold text-white leading-[60px] capitalize -tracking-[2px] hover-scale">
             We want to

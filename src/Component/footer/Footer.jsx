@@ -3,8 +3,8 @@ export const Footer = () => {
   return (
     <>
       <div className="bg-primary min-h-[576px] pt-[84px]">
-        <div className="max-w-maxSize mx-auto flex justify-between">
-          <div className="flex flex-col max-w-[473px] w-full gap-y-3">
+        <div className="max-w-maxSize flex mx-auto xs:flex-col lg:flex-row justify-between">
+          <div className="flex flex-col md:max-w-[473px] w-full gap-y-3 justify-center md:justify-start items-center md:items-start mb-[90px] md:mb-2">
             <div>
               <h1 className="text-[3rem] text-white font-bold">Get In Touch</h1>
               <h1 className="text-[4rem] text-white -mt-[30px] font-bold">

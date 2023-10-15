@@ -1,7 +1,7 @@
 export const BannerSellVehicle = () => {
   return (
     <div className="banner-sell-vehicle-bg min-h-[80vh] h-full object-cover bg-cover bg-no-repeat">
-      <div className="flex gap-x-[117px] max-w-[1440px] w-full mx-auto min-h-[80vh] h-full pt-40 pb-10">
+      <div className="flex xs:flex-col xs:items-center xs:gap-y-4 lg:flex-row gap-x-[117px] max-w-[1440px] w-full mx-auto min-h-[80vh] h-full pt-40 pb-10">
         <div className="flex gap-y-4 flex-col max-w-[473px]">
           <div>
             <h1 className="text-[3rem] text-white font-bold leading-[3rem] hover-scale">More For Your</h1>
