@@ -12,7 +12,7 @@ export const BannerSellVehicle = () => {
           <p className="text-white text-[26px] leading-[34px]">
             We value custom cars, <br/>lifted trucks, and clean builds.
           </p>
-          <button className="hover-scale hover:bg-white bg-primary text-white hover:text-primary border-primary rounded-[10px] max-w-[300px] px-9 min-h-[46px] mt-5">
+          <button className="hover-scale hover:bg-white bg-primary text-white hover:text-primary border-2 border-primary rounded-[10px] max-w-[300px] px-9 min-h-[46px] mt-5">
             Get Directions
           </button>
         </div>
