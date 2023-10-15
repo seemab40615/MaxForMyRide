@@ -7,6 +7,7 @@ import {SingleSlider} from '../SingleSlider/SingleSlider';
 import aboutOne from '../../assets/images/1.JPG';
 import aboutTwo from '../../assets/images/2.JPG';
 import aboutThree from '../../assets/images/3.JPG';
+import aboutFour from '../../assets/images/4.JPG';
 export const WhyChooseUs = () => {
   return (
     <div className="max-w-maxSize mx-auto w-full grid grid-cols-1 lg:grid-cols-3 p-5 lg:p-2 my-10">
@@ -31,6 +32,7 @@ export const WhyChooseUs = () => {
       </div>
       <div className="col-span-2">
         <div className="grid grid-cols-2">
+
           <div class="col-span-1">
             <div class="choose-steps-block">
               <img
@@ -46,9 +48,11 @@ export const WhyChooseUs = () => {
                 </p>
               </div>
             </div>
+          </div>
+          <div class="col-span-1">
             <img
                 src={aboutOne}
-                class="img-fluid mr-4 mt-8 w-[90%] h-[280px] ml-5"
+                class="img-fluid mr-4 mt-8 ml-5 hover-scale"
                 alt=""
               />
           </div>
@@ -56,9 +60,11 @@ export const WhyChooseUs = () => {
           <div class="col-span-1">
           <img
                 src={aboutTwo}
-                class="img-fluid mr-4 mt-8"
+                class="img-fluid mr-4 mt-8 hover-scale"
                 alt=""
               />
+          </div>
+          <div class="col-span-1">
             <div class="choose-steps-block">
               <img
                 src={WhystepTwo}
@@ -91,14 +97,23 @@ export const WhyChooseUs = () => {
               </div>
             </div>
           </div>
-
           <div class="col-span-1">
           <img
                 src={aboutThree}
                 class="img-fluid mr-4 mt-8 hover-scale"
                 alt=""
               />
-            <div class="choose-steps-block choose-path-4">
+          </div>
+
+          <div class="col-span-1">
+          <img
+                src={aboutFour}
+                class="img-fluid mr-4 mt-8 hover-scale"
+                alt=""
+              />
+          </div>
+          <div class="col-span-1">
+            <div class="choose-steps-block">
               <img
                 src={WhystepFour}
                 className="img-fluid mr-4 mt-8 hover-scale"
