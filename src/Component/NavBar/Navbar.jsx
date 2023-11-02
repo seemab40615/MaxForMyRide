@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import { Collapse, initTE } from "tw-elements";
 import Logo from "../../assets/assets/images/logo_max_for_my_ride.png";
 initTE({ Collapse });
 export const NavBar = () => {
+  const [open, setOpen] = useState(false);
   return (
     <nav
       class="fixed bg-black z-10 flex max-w-[1920px] w-full flex-nowrap items-center justify-between text-neutral-500 shadow-lg py-4"
@@ -21,6 +22,7 @@ export const NavBar = () => {
           aria-controls="navbarSupportedContent14"
           aria-expanded="false"
           aria-label="Toggle navigation"
+          onClick={()=> setOpen(open ? false : true)}
         >
           {/* <!-- Hamburger icon --> */}
           <span class="[&>svg]:w-7">
@@ -40,8 +42,8 @@ export const NavBar = () => {
         </button>
 
         {/* <!-- Collapsible navbar container --> */}
-        <div
-          class="!visible mt-2 hidden basis-[100%] items-center lg:mt-0 lg:!flex lg:basis-auto"
+     { open &&   <div
+          class="!visible hidden mt-2 basis-[100%] items-center lg:mt-0 lg:!flex lg:basis-auto"
           id="navbarSupportedContent14"
           data-te-collapse-item
         >
@@ -83,7 +85,7 @@ export const NavBar = () => {
               </a>
             </li>
           </ul>
-        </div>
+        </div> }
       </div>
     </nav>
   );
